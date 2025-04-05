@@ -1,0 +1,23 @@
+[
+  {
+    "id": "12",
+    "name": "Daler",
+    "surname": "Nazarov",
+    "classname": "N-20",
+    "coursename": "IT"
+  },
+  {
+    "id": "11",
+    "name": "Abdulla",
+    "surname": "Nazarov",
+    "classname": "N-19",
+    "coursename": "IT"
+  },
+  {
+    "id": 12,
+    "name": "Azim",
+    "surname": "Tolipov",
+    "classname": "N-20",
+    "coursename": "IT"
+  }
+]
