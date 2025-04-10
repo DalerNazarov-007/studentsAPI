@@ -17,7 +17,7 @@ const server = async (req, res) => {
     else if (req.url == "/students/getByClassname" && req.method == "GET"){
         const {classname} = await Parse(req)
         const data = await Students.read()
-        const foundData = data.find(student => student.classname == classname)
+        const foundData = data.filter(student => student.classname == classname)
         if (!foundData) {
             res.writeHead(404)
             return res.end(JSON.stringify({message : "Classname not found"}))
